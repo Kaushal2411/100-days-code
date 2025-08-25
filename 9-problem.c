@@ -1,9 +1,8 @@
-// Q8: Write a program to find and display the sum of the first n natural numbers.
+//Q9: Write a program to calculate simple and compound interest for given principal, rate, and time.
 #include <stdio.h>
-int main()
-{
+int main(){
     int m = 0;
-    while (m < 1);{
+    while (m < 1) {
         int a;
         printf("Choose the type of interest to calculate:\n");
         printf("1. Simple Interest\n");
@@ -48,7 +47,7 @@ int main()
         }
         else if (a == 3)
         {
-            m++;
+            m=m+1;
         }
         else
         {
